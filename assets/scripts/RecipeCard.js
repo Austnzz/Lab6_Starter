@@ -131,7 +131,7 @@ class RecipeCard extends HTMLElement {
 		article.innerHTML = `
 		<img src="${data.imgSrc}" alt="${data.imgAlt}">
  		<p class="title">
-    	<a href="${data.titleLink}"></a>${data.titleTxt}
+    		<a href="${data.titleLnk}">${data.titleTxt}</a>
   		</p>
   		<p class="organization">${data.organization}</p>
   		<div class="rating">
